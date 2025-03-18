@@ -40,4 +40,16 @@
 #define CPP23		202302L
 
 
+/******************************************************************************
+* Example of use
+*
+* #if defined(__cplusplus) && __cplusplus == CPP11
+* ...
+* Cpp 11 code
+* ...
+* #endif
+*
+*/
+
+
 #endif /* CPPSTANDARD_H */

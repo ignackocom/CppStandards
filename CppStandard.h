@@ -1,18 +1,19 @@
 /******************************************************************************
-* @file      CppStandard.h
-* @author    Peter Potrok
-* @copyright Copyright (c) 1994 - 2025
+* \file      CppStandard.h
+* \version   2025.03.18.01
+* \author    Peter Potrok
+* \copyright Copyright (c) 1994 - 2025
 *            MIT License (see License.txt file)
-* @brief     Cpp Standard definitions
-* @details
+* \brief     Cpp Standard definitions
+* \details
 *
-* @see       https://en.wikipedia.org/wiki/C%2B%2B
+* \see       https://en.wikipedia.org/wiki/C%2B%2B
 *            https://en.cppreference.com/w/cpp/preprocessor/replace#Predefined_macros
 *            https://github.com/cpredef/predef
 ******************************************************************************/
 
 #ifndef CPPSTANDARD_H
-#define CPPSTANDARD_H		1L
+#define CPPSTANDARD_H		20250318L
 
 
 #define CPPPRE98	1L

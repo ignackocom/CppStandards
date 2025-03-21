@@ -1,5 +1,5 @@
 # CppStandards
-Cpp __cplusplus standards
+Cpp standards
 
 Example of use
 

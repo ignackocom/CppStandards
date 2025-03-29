@@ -42,7 +42,17 @@
 
 
 /******************************************************************************
-* Example of use
+* CPLUSPLUS_VERSION definition, since CPPPRE98, ..., CPP23
+*/
+#if defined(__cplusplus)
+#define CPLUSPLUS_VERSION         __cplusplus
+#else
+#define CPLUSPLUS_VERSION         CPPPRE98
+#endif
+
+
+/******************************************************************************
+* Examples of use
 *
 * #if defined(__cplusplus) && __cplusplus == CPP11
 * ...
@@ -50,6 +60,24 @@
 * ...
 * #endif
 *
+* ---------------------------------------------------------
+* #if CPLUSPLUS_VERSION == CPPPRE98
+* ...
+* CPPPRE98 code
+* ...
+* #elif CPLUSPLUS_VERSION == CPP98
+* ...
+* CPP98 code
+* ...
+* #elif CPLUSPLUS_VERSION == CPP11
+* ...
+* CPP11 code
+* ...
+* #else
+* ...
+* other code
+* ...
+* #endif
 */
 
 

@@ -52,6 +52,15 @@
 
 
 /******************************************************************************
+**  Basic GET macros
+*/
+/* since CPPPRE98, ..., CPP23 */
+#define GET_CPLUSPLUS_VERSION()			CPLUSPLUS_VERSION
+
+#define GET_CPLUSPLUS_VERSION_YEAR()	(CPLUSPLUS_VERSION/100L)
+
+
+/******************************************************************************
 * Examples of use
 *
 * #if defined(__cplusplus) && __cplusplus == CPP11
@@ -78,6 +87,11 @@
 * other code
 * ...
 * #endif
+* 
+* ---------------------------------------------------------
+* printf("cpp version      = %ld\n", GET_CPLUSPLUS_VERSION());
+* printf("cpp version year = %ld\n", GET_CPLUSPLUS_VERSION_YEAR());
+* 
 */
 
 

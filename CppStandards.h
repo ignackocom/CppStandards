@@ -1,5 +1,5 @@
 /******************************************************************************
-* \file      CppStandard.h
+* \file      CppStandards.h
 * \version   2025.03.18.01
 * \author    Peter Potrok
 * \copyright Copyright (c) 1994 - 2025
@@ -12,8 +12,8 @@
 *            https://github.com/cpredef/predef
 ******************************************************************************/
 
-#ifndef CPPSTANDARD_H
-#define CPPSTANDARD_H		20250318L
+#ifndef CPPSTANDARDS_H
+#define CPPSTANDARDS_H		20250318L
 
 
 #define CPPPRE98	1L
@@ -95,4 +95,4 @@
 */
 
 
-#endif /* CPPSTANDARD_H */
+#endif /* CPPSTANDARDS_H */

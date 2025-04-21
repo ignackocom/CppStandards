@@ -1,5 +1,5 @@
 # CppStandards
-Cpp standards
+Cpp standard constants
 
 Example of use
 

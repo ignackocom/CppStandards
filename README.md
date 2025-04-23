@@ -3,17 +3,17 @@ Cpp standard constants
 
 Example of use
 
-```
+```c
 #if defined(__cplusplus) && __cplusplus == CPP11
 ...
-Cpp 11 code
+CPP11 code
 ...
 #endif
 ```
 
 another example
 
-```
+```c
 #if CPLUSPLUS_VERSION == CPPPRE98
 ...
 CPPPRE98 code
@@ -35,7 +35,7 @@ other code
 
 another example
 
-```
+```c
 printf("cpp version      = %ld\n", GET_CPLUSPLUS_VERSION());
 printf("cpp version year = %ld\n", GET_CPLUSPLUS_VERSION_YEAR());
 ```

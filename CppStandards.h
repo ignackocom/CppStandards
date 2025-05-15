@@ -1,15 +1,19 @@
 /******************************************************************************
 * \file      CppStandards.h
-* \version   2025.03.18.01
-* \author    Peter Potrok
+* \version   2025.03.18
+* \author    Peter Potrok ( @ignackocom )
+*            ignacko.com@outlook.com
+*            https://github.com/ignackocom
 * \copyright Copyright (c) 1994 - 2025
 *            MIT License (see License.txt file)
 * \brief     Cpp Standard definitions
 * \details
 *
-* \see       https://en.wikipedia.org/wiki/C%2B%2B
+* \see       https://github.com/ignackocom
+*			 https://en.wikipedia.org/wiki/C%2B%2B
 *            https://en.cppreference.com/w/cpp/preprocessor/replace#Predefined_macros
 *            https://github.com/cpredef/predef
+*			 and other resources
 ******************************************************************************/
 
 #ifndef CPPSTANDARDS_H
